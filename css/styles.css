@@ -4,8 +4,22 @@ body {
 
 
 
-.alert-container{
+.alert-container .col-12 {
+    padding-left:0;
+    padding-right:0;
+}
 
+.alert-warning {
+    background-color: #f9c41e;
+    border-color:#f9c41e;
+}
+
+.site-wide-alert {
+    border-radius: 0;
+    margin-bottom: 0;
+    padding:0px 15px 0 0;
+    color: #856404;
+    
 }
 
 .features-container{
@@ -15,15 +29,14 @@ body {
 .callout-container{
     height:100vh;
      background: url(../images/bg-images.jpg) no-repeat bottom right fixed; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  position: relative;
-
-  display:flex;
-  align-items: center;
-  justify-content: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    position: relative;
+    display:flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .quotes--container{
@@ -96,4 +109,37 @@ body {
 .btn--red:active:focus {
     background-color: #bb442b;
     border-color: #bb442b;
+}
+
+/* NAV BAR */
+
+.navalert-container {
+    position: absolute;
+    top:0;
+    left:0;
+    padding-left:0;
+    padding-right:0;
+    z-index: 1;
+    background: rgba(0,0,0,0.25);
+}
+
+.nav{
+    margin-bottom:0;
+    border:0;
+    width:100%;
+    
+
+
+}
+
+.navbar .navbar-toggler {
+    border:none;
+}
+
+.navbar .navbar-nav a {
+    font-weight: bold;
+}
+
+.navbar-brand {
+    font-weight: bold;
 }
